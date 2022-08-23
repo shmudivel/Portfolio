@@ -1,3 +1,9 @@
+Pushed a bunch together, it was locally stored.
+
+emal form: https://app.getform.io/forms
+
+mobile scrolling: https://www.npmjs.com/package/react-scroll
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
