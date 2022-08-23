@@ -1,3 +1,8 @@
+What left todo: 
+1. Home button scroll down 
+2. projects liking 
+3. ??
+
 Pushed a bunch together, it was locally stored.
 
 emal form: https://app.getform.io/forms
