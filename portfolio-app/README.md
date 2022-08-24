@@ -1,7 +1,8 @@
 What left todo: 
 1. Home button scroll down 
 2. projects liking 
-3. ??
+3. Logo click scroll top
+4. ??
 
 Pushed a bunch together, it was locally stored.
 
