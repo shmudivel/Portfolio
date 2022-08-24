@@ -1,6 +1,6 @@
 What left todo: 
-1. Home button scroll down to work component?: https://www.npmjs.com/package/react-scroll
-2. Projects linking 
+1. Home button scroll down to work component?: https://www.npmjs.com/package/react-scroll ✅
+2. Projects linking ✅
 3. Logo click scroll to top? :https://www.npmjs.com/package/react-scroll
 
 Pushed a bunch together, it was locally stored.
