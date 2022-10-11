@@ -18,8 +18,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me.{" "}
+            I have experience working both in groups and individually, and successfully finishing projects, so I am equipped with team-working and self-drive skills. I am passionate about new emerging technologies and always willing to enlarge my knowledge and skill set..{" "}
             </p>
           </div>
         </div>

@@ -4,8 +4,7 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -19,7 +18,7 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "77px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "77px" }} />
       </div>
 
       {/* Page links */}
@@ -98,7 +97,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/darkhan-iglikov-24a616157" target="_blank" rel="noreferrer" 
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -106,7 +105,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/shmudivel" target="_blank" rel="noreferrer" 
             >
               Github <FaGithub size={30} />
             </a>
@@ -114,7 +113,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto: shmudivel@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
