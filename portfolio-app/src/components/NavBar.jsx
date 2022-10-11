@@ -18,7 +18,9 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
+        <Link  to="home" smooth={true} duration={500}>
         <img src={Logo} alt="Logo" style={{ width: "77px" }} />
+        </Link>
       </div>
 
       {/* Page links */}
@@ -41,7 +43,7 @@ const NavBar = () => {
         </li>
         <li>
           <Link to="work" smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li>
@@ -81,7 +83,7 @@ const NavBar = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
