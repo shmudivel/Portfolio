@@ -37,9 +37,9 @@ const Home = () => {
             </span>
           </button> */}
 
-          <div className=" text-white">
-            <ul className="grid sm:grid-cols-2 md:grid-cols-4 gap-2 ">
-              <li className="w-[160px] h-[60px] flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-600">
+          <div className="container mx-auto text-white">
+            <ul className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
+              <li className="w-[160px] h-[60px] mr-0 flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-600">
                 <a
                 className="flex justify-between items-center w-10/12 text-gray-300"
                   href="https://www.linkedin.com/in/darkhan-iglikov-24a616157"
