@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import {
   FaBars,
   FaTimes,
-  FaGithub,
-  FaLinkedin,
+  // FaGithub,
+  // FaLinkedin,
 
 } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { HiOutlineMail } from "react-icons/hi";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
@@ -29,11 +29,11 @@ const NavBar = () => {
             Home
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="skills" smooth={true} duration={500}>
             Skills
@@ -69,11 +69,11 @@ const NavBar = () => {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        {/* <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
-        </li>
+        </li> */}
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
@@ -92,7 +92,7 @@ const NavBar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      {/* <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
@@ -127,7 +127,7 @@ const NavBar = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
