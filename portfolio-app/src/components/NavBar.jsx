@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
+      <div className="hover:scale-110 duration-500">
         <Link  to="home" smooth={true} duration={500}>
         <img src={Logo} alt="Logo" style={{ width: "77px" }} />
         </Link>
@@ -26,7 +26,7 @@ const NavBar = () => {
       {/* Page links */}
 
       <ul className="hidden md:flex">
-        <li>
+        <li className="hover:scale-110">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
@@ -36,17 +36,17 @@ const NavBar = () => {
             About
           </Link>
         </li> */}
-        <li>
+        <li className="hover:scale-110">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-110">
           <Link to="work" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-110">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>

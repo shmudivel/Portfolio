@@ -8,13 +8,13 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#26ddcd]">
-            Work
+            Projects
           </p>
           <p className="py-6">Check out some of my recent projects</p>
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
@@ -23,7 +23,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-              Cargo Calculater
+              Cargo Calculator
+              <p className="text-xs" >Hello this is awesome project</p>
               </span>
               <div className="pt-8 text-center">
                 <a href="http://shmudivel.github.io/cargo-calculater" target="_blank" rel="noreferrer" >
