@@ -27,7 +27,7 @@ const Work = () => {
               <p className="text-xs" >Hello this is awesome project</p>
               </span>
               <div className="pt-8 text-center">
-                <a href="http://shmudivel.github.io/cargo-calculater" target="_blank" rel="noreferrer" >
+                <a href="http://shmudivel.github.io/cargo-calculator" target="_blank" rel="noreferrer" >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
