@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e710fa9b.css",
-    "main.js": "/Portfolio/static/js/main.4834737a.js",
+    "main.css": "/Portfolio/static/css/main.d9faba6c.css",
+    "main.js": "/Portfolio/static/js/main.4619683c.js",
     "static/media/cargoCalculator.png": "/Portfolio/static/media/cargoCalculator.8a3fbd582c9376730116.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.8f54ba350f0221186765.png",
@@ -13,11 +13,11 @@
     "static/media/firebase.png": "/Portfolio/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
-    "main.e710fa9b.css.map": "/Portfolio/static/css/main.e710fa9b.css.map",
-    "main.4834737a.js.map": "/Portfolio/static/js/main.4834737a.js.map"
+    "main.d9faba6c.css.map": "/Portfolio/static/css/main.d9faba6c.css.map",
+    "main.4619683c.js.map": "/Portfolio/static/js/main.4619683c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e710fa9b.css",
-    "static/js/main.4834737a.js"
+    "static/css/main.d9faba6c.css",
+    "static/js/main.4619683c.js"
   ]
 }
