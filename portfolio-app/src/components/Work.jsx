@@ -1,5 +1,6 @@
 import React from "react";
 import WorkImg from "../assets/logo.png";
+import cargoCalculator from "../assets/cargoCalculator.png"
 
 
 const Work = () => {
@@ -17,7 +18,7 @@ const Work = () => {
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${cargoCalculator})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
