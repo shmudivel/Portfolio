@@ -38,7 +38,7 @@ const Home = () => {
           </button> */}
 
           <div className="container mx-auto text-white">
-            <ul className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
+            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 ">
               <li className="w-[160px] h-[60px] mr-0 flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-600">
                 <a
                 className="flex justify-between items-center w-10/12 text-gray-300"
