@@ -1,6 +1,11 @@
 Demo: https://shmudivel.github.io/Portfolio
 
-What left todo: 
+npm install -g gh-pages --save-dev
+
+npm run deploy
+
+What left todo:
+
 1. Home button scroll down to work component?: https://www.npmjs.com/package/react-scroll ✅
 2. Projects linking ✅
 3. Logo click scroll to top? :https://www.npmjs.com/package/react-scroll ✅
