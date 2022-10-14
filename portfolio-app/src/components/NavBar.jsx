@@ -11,9 +11,19 @@ import {
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
+// import i18next from "../i18next";
+import { useTranslation } from "react-i18next";
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  //languages
+  const { t, i18n } = useTranslation();
+  const handleLngChange = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -23,12 +33,18 @@ const NavBar = () => {
         </Link>
       </div>
 
+      <div>
+          <button onClick={() => handleLngChange("english")}>English</button>
+          <button onClick={() => handleLngChange("russian")}>Русский</button>
+          <button onClick={() => handleLngChange("chinese")}>中文</button>
+        </div>
+
       {/* Page links */}
 
       <ul className="hidden md:flex">
         <li className="hover:scale-110">
           <Link to="home" smooth={true} duration={500}>
-            Home
+            {t("Home")}
           </Link>
         </li>
         {/* <li>
@@ -38,17 +54,17 @@ const NavBar = () => {
         </li> */}
         <li className="hover:scale-110">
           <Link to="skills" smooth={true} duration={500}>
-            Skills
+            {t("Skills")}
           </Link>
         </li>
         <li className="hover:scale-110">
           <Link to="work" smooth={true} duration={500}>
-            Projects
+            {t("Projects")}
           </Link>
         </li>
         <li className="hover:scale-110">
           <Link to="contact" smooth={true} duration={500}>
-            Contact
+            {t("Contact")}
           </Link>
         </li>
       </ul>
