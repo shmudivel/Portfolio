@@ -23,6 +23,8 @@ const NavBar = () => {
   const handleLngChange = (lng) => {
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
+
+    
   };
 
   return (
@@ -33,16 +35,12 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <div>
-          <button onClick={() => handleLngChange("english")}>English</button>
-          <button onClick={() => handleLngChange("russian")}>Русский</button>
-          <button onClick={() => handleLngChange("chinese")}>中文</button>
-        </div>
+
 
       {/* Page links */}
 
       <ul className="hidden md:flex">
-        <li className="hover:scale-110">
+        <li className="p-1 hover:scale-110">
           <Link to="home" smooth={true} duration={500}>
             {t("Home")}
           </Link>
@@ -52,22 +50,30 @@ const NavBar = () => {
             About
           </Link>
         </li> */}
-        <li className="hover:scale-110">
+        <li className=" p-1 hover:scale-110">
           <Link to="skills" smooth={true} duration={500}>
             {t("Skills")}
           </Link>
         </li>
-        <li className="hover:scale-110">
+        <li className=" p-1 hover:scale-110">
           <Link to="work" smooth={true} duration={500}>
             {t("Projects")}
           </Link>
         </li>
-        <li className="hover:scale-110">
+        <li className="p-1 hover:scale-110">
           <Link to="contact" smooth={true} duration={500}>
-            {t("Contact")}
+             {t("Contact")}
           </Link>
         </li>
+
+        <div className=" border-l-4 border-[#26ddcd]">
+          <button className=" p-1 hover:bg-[#26ddcd] active:bg-violet-700 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
+          <button className="p-1 hover:bg-[#26ddcd] active:bg-violet-700 focus:outline-none focus:ring focus:ring-[#26ddcd]..." onClick={() => handleLngChange("russian")}>Ру</button>
+          <button className="p-1 hover:bg-[#26ddcd] active:bg-violet-700 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
+        </div>
       </ul>
+
+
 
       {/* Menu Lines */}
       <div onClick={handleClick} className="md:hidden z-10">

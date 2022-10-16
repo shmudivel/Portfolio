@@ -115,7 +115,7 @@ i18next.use(initReactI18next).init({
       },
     },
   },
-  lng: localStorage.getItem("lng") || "russian",
+  lng: localStorage.getItem("lng") || "english",
 });
 
 export default i18next;
