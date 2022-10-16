@@ -15,7 +15,7 @@ const Contact = () => {
                 <p className='text-gray-300 py-4'> {t("Submit the form below or shoot me an email")} - shmudivel@gmail.com</p>
             </div>
             <input className='bg-[#ccd6f6] p-2' type="text" placeholder={t("Name")} name='name' />
-            <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
+            <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder={t("Email")} name='email' />
             <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder={t("Message")}></textarea>
             <button className='text-white border-2 hover:bg-[#26ddcd] hover:border-[#26ddcd] px-4 py-3 my-8 mx-auto flex items-center'>{t("Send")}</button>
         </form>

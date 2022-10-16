@@ -46,7 +46,7 @@ const Home = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                   <FaLinkedin size={30} /> Linkedin
+                   <FaLinkedin size={30} /> {t("Linkedin")}
                 </a>
               </li>
               <li className="w-[160px] h-[60px] flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#333333]">
@@ -64,7 +64,7 @@ const Home = () => {
                 className="flex justify-between items-center w-9/12 text-gray-300"
                 href="mailto: shmudivel@gmail.com"
                 >
-                   <HiOutlineMail size={30} /> Email
+                   <HiOutlineMail size={30} /> {t("Email")}
                   </a>
               </li>
               <li className="w-[160px] h-[60px] flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#565f69]">

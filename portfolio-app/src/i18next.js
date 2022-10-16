@@ -23,6 +23,9 @@ i18next.use(initReactI18next).init({
 
         "I am a creative problem solver, as my diverse background helps me to introduce solutions from different perspectives.":
         "I am a creative problem solver, as my diverse background helps me to introduce solutions from different perspectives.",
+        "Linkedin":"Linkedin",
+        "Email":"Email",
+        "Resume":"Resume",
 
 
         // Skills / stack
@@ -60,6 +63,9 @@ i18next.use(initReactI18next).init({
 
         "I am a creative problem solver, as my diverse background helps me to introduce solutions from different perspectives.":
         "Я творчески подхожу к решению проблем, а благодаря моему многопрофильному образованию мне удается взлянуть и решить проблему лучшем путем.",
+        "Linkedin":"Linkedin",
+        "Email":"Email",
+        "Resume":"Resume",
 
 
         // Skills / stack
@@ -96,7 +102,10 @@ i18next.use(initReactI18next).init({
         "对改善从大型企业规模到小型日常活动的各级流程的项目感兴趣。",
 
         "I am a creative problem solver, as my diverse background helps me to introduce solutions from different perspectives.":
-        "我是一个创造性的问题解决者，因为我的多元化背景帮助我从不同的角度引入解决方案。",
+        "我是一个创造性的问题解决者，因为我的多元化背景帮助我从不同的角度引入解决方案。", 
+        "Linkedin":"领英",
+        "Email":"电邮",
+        "Resume":"简历",
 
 
         // Skills / stack

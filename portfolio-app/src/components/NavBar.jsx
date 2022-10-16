@@ -67,9 +67,9 @@ const NavBar = () => {
         </li>
 
         <div className=" border-l-4 border-[#26ddcd]">
-          <button className=" p-1 hover:bg-[#26ddcd] active:bg-violet-700 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
-          <button className="p-1 hover:bg-[#26ddcd] active:bg-violet-700 focus:outline-none focus:ring focus:ring-[#26ddcd]..." onClick={() => handleLngChange("russian")}>Ру</button>
-          <button className="p-1 hover:bg-[#26ddcd] active:bg-violet-700 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
+          <button className=" p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
+          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("russian")}>Ру</button>
+          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
         </div>
       </ul>
 
