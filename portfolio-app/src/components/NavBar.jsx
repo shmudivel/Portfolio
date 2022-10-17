@@ -90,7 +90,7 @@ const NavBar = () => {
       >
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
+            {t("Home")}
           </Link>
         </li>
         {/* <li className="py-6 text-4xl">
@@ -100,19 +100,24 @@ const NavBar = () => {
         </li> */}
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+            {t("Skills")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Projects
+            {t("Projects")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
+            {t("Contact")}
           </Link>
         </li>
+        <div className=" border-l-4 border-[#26ddcd]">
+          <button className=" p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
+          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("russian")}>Ру</button>
+          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
+        </div>
       </ul>
 
       {/* Social icons */}
