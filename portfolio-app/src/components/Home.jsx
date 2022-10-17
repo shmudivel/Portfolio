@@ -74,7 +74,7 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
                 >
-                   <BsFillPersonLinesFill size={30} /> Resume
+                   <BsFillPersonLinesFill size={30} /> {t("Resume")}
                   </a>
               </li>
             </ul>
