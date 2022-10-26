@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9095a309.css",
-    "main.js": "/Portfolio/static/js/main.e4e560ad.js",
+    "main.css": "/Portfolio/static/css/main.0a40501b.css",
+    "main.js": "/Portfolio/static/js/main.08ced126.js",
     "static/media/cargoCalculator.png": "/Portfolio/static/media/cargoCalculator.8a3fbd582c9376730116.png",
+    "static/media/dictionary.png": "/Portfolio/static/media/dictionary.8e5b14c3a4a38fd94df0.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.8f54ba350f0221186765.png",
     "static/media/node.png": "/Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
@@ -13,11 +14,11 @@
     "static/media/firebase.png": "/Portfolio/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
-    "main.9095a309.css.map": "/Portfolio/static/css/main.9095a309.css.map",
-    "main.e4e560ad.js.map": "/Portfolio/static/js/main.e4e560ad.js.map"
+    "main.0a40501b.css.map": "/Portfolio/static/css/main.0a40501b.css.map",
+    "main.08ced126.js.map": "/Portfolio/static/js/main.08ced126.js.map"
   },
   "entrypoints": [
-    "static/css/main.9095a309.css",
-    "static/js/main.e4e560ad.js"
+    "static/css/main.0a40501b.css",
+    "static/js/main.08ced126.js"
   ]
 }
