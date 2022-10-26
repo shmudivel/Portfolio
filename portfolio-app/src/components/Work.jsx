@@ -1,6 +1,7 @@
 import React from "react";
 import WorkImg from "../assets/logo.png";
 import cargoCalculator from "../assets/cargoCalculator.png"
+import dictionary from "../assets/dictionary.png"
 
 import { useTranslation } from "react-i18next";
 
@@ -48,7 +49,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${dictionary})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
