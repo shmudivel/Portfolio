@@ -60,14 +60,14 @@ const NavBar = () => {
             {t("Projects")}
           </Link>
         </li>
-        <li className="p-1 hover:scale-110">
+        <li className="p-1 pr-2 hover:scale-110">
           <Link to="contact" smooth={true} duration={500}>
              {t("Contact")}
           </Link>
         </li>
 
         <div className=" border-l-4 border-[#26ddcd]">
-          <button className=" p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
+          <button className=" p-1 pl-2 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
           <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("russian")}>Ру</button>
           <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
         </div>
@@ -113,7 +113,7 @@ const NavBar = () => {
             {t("Contact")}
           </Link>
         </li>
-        <div className=" border-l-4 border-[#26ddcd]">
+        <div className="  border-l-4 border-[#e6c056]">
           <button className=" p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
           <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("russian")}>Ру</button>
           <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
