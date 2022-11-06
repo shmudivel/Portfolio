@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0a40501b.css",
-    "main.js": "/Portfolio/static/js/main.08ced126.js",
+    "main.js": "/Portfolio/static/js/main.b9b50f7a.js",
+    "static/media/timeZones.png": "/Portfolio/static/media/timeZones.019dbc17be5fb6152f71.png",
     "static/media/cargoCalculator.png": "/Portfolio/static/media/cargoCalculator.8a3fbd582c9376730116.png",
     "static/media/dictionary.png": "/Portfolio/static/media/dictionary.8e5b14c3a4a38fd94df0.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -15,10 +16,10 @@
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
     "main.0a40501b.css.map": "/Portfolio/static/css/main.0a40501b.css.map",
-    "main.08ced126.js.map": "/Portfolio/static/js/main.08ced126.js.map"
+    "main.b9b50f7a.js.map": "/Portfolio/static/js/main.b9b50f7a.js.map"
   },
   "entrypoints": [
     "static/css/main.0a40501b.css",
-    "static/js/main.08ced126.js"
+    "static/js/main.b9b50f7a.js"
   ]
 }
