@@ -22,7 +22,8 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${cargoCalculator})` }}
@@ -49,6 +50,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${dictionary})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -74,6 +76,8 @@ const Work = () => {
               </div>
             </div>
           </div>
+          
+          
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${timeZones})` }}
