@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a02bf04b.css",
-    "main.js": "/Portfolio/static/js/main.4aa4ed5a.js",
+    "main.js": "/Portfolio/static/js/main.699b68ca.js",
     "static/media/timeZones.png": "/Portfolio/static/media/timeZones.019dbc17be5fb6152f71.png",
     "static/media/cargoCalculator.png": "/Portfolio/static/media/cargoCalculator.8a3fbd582c9376730116.png",
     "static/media/dictionary.png": "/Portfolio/static/media/dictionary.8e5b14c3a4a38fd94df0.png",
@@ -16,10 +16,10 @@
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
     "main.a02bf04b.css.map": "/Portfolio/static/css/main.a02bf04b.css.map",
-    "main.4aa4ed5a.js.map": "/Portfolio/static/js/main.4aa4ed5a.js.map"
+    "main.699b68ca.js.map": "/Portfolio/static/js/main.699b68ca.js.map"
   },
   "entrypoints": [
     "static/css/main.a02bf04b.css",
-    "static/js/main.4aa4ed5a.js"
+    "static/js/main.699b68ca.js"
   ]
 }
