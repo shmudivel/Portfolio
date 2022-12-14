@@ -4,7 +4,6 @@ import {
   FaTimes,
   // FaGithub,
   // FaLinkedin,
-
 } from "react-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -23,19 +22,15 @@ const NavBar = () => {
   const handleLngChange = (lng) => {
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
-
-    
   };
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div className="hover:scale-110 duration-500">
-        <Link  to="home" smooth={true} duration={500}>
-        <img src={Logo} alt="Logo" style={{ width: "77px" }} />
+        <Link to="home" smooth={true} duration={500}>
+          <img src={Logo} alt="Logo" style={{ width: "77px" }} />
         </Link>
       </div>
-
-
 
       {/* Page links */}
 
@@ -51,29 +46,42 @@ const NavBar = () => {
           </Link>
         </li> */}
         <li className=" p-1 hover:scale-110">
-          <Link to="skills" smooth={true} duration={500}>
-            {t("Skills")}
-          </Link>
-        </li>
-        <li className=" p-1 hover:scale-110">
           <Link to="work" smooth={true} duration={500}>
             {t("Projects")}
           </Link>
         </li>
+        <li className=" p-1 hover:scale-110">
+          <Link to="skills" smooth={true} duration={500}>
+            {t("Skills")}
+          </Link>
+        </li>
         <li className="p-1 pr-2 hover:scale-110">
           <Link to="contact" smooth={true} duration={500}>
-             {t("Contact")}
+            {t("Contact")}
           </Link>
         </li>
 
         <div className=" border-l-4 border-[#26ddcd]">
-          <button className=" p-1 pl-2 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
-          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("russian")}>Ру</button>
-          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
+          <button
+            className=" p-1 pl-2 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            onClick={() => handleLngChange("english")}
+          >
+            En
+          </button>
+          <button
+            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            onClick={() => handleLngChange("russian")}
+          >
+            Ру
+          </button>
+          <button
+            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            onClick={() => handleLngChange("chinese")}
+          >
+            中文
+          </button>
         </div>
       </ul>
-
-
 
       {/* Menu Lines */}
       <div onClick={handleClick} className="md:hidden z-10">
@@ -99,13 +107,13 @@ const NavBar = () => {
           </Link>
         </li> */}
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            {t("Skills")}
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            {t("Projects")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            {t("Projects")}
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            {t("Skills")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -114,9 +122,24 @@ const NavBar = () => {
           </Link>
         </li>
         <div className="  border-l-4 border-[#e6c056]">
-          <button className=" p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("english")}>En</button>
-          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("russian")}>Ру</button>
-          <button className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..." onClick={() => handleLngChange("chinese")}>中文</button>
+          <button
+            className=" p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            onClick={() => handleLngChange("english")}
+          >
+            En
+          </button>
+          <button
+            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            onClick={() => handleLngChange("russian")}
+          >
+            Ру
+          </button>
+          <button
+            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            onClick={() => handleLngChange("chinese")}
+          >
+            中文
+          </button>
         </div>
       </ul>
 
