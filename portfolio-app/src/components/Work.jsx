@@ -1,10 +1,8 @@
 import React from "react";
-import WorkImg from "../assets/logo.png";
 import cargoCalculator from "../assets/cargoCalculator.png";
 import dictionary from "../assets/dictionary.png";
 import timeZones from "../assets/timeZones.png";
 import vdoh from "../assets/vdoh.png";
-import vdoh1 from "../assets/vdoh1.png";
 
 import { useTranslation } from "react-i18next";
 
