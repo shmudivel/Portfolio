@@ -21,14 +21,14 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           {t("I'm a Front-end Developer.")}
         </h2>
-        <p className="text-[#8892b0] py-6 max-w-[800px]">
+        {/* <p className="text-[#8892b0] py-6 max-w-[800px]">
           {t(
             "Interested in projects that improve processes at all levels from large business scales to small daily activities. "
           )}
           {t(
             "I am a creative problem solver, as my diverse background helps me to introduce solutions from different perspectives."
           )}
-        </p>
+        </p> */}
         <div>
           {/* <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#26ddcd] hover:border-[#26ddcd]">
             View Work
@@ -37,7 +37,7 @@ const Home = () => {
             </span>
           </button> */}
 
-          <div className="container mx-auto text-white">
+          <div className="container mx-auto my-4 text-white">
             <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 ">
               <li className="w-[160px] h-[60px] mr-0 flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-600">
                 <a

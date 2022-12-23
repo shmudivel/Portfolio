@@ -50,11 +50,11 @@ const NavBar = () => {
             {t("Projects")}
           </Link>
         </li>
-        <li className=" p-1 hover:scale-110">
+        {/* <li className=" p-1 hover:scale-110">
           <Link to="skills" smooth={true} duration={500}>
             {t("Skills")}
           </Link>
-        </li>
+        </li> */}
         <li className="p-1 pr-2 hover:scale-110">
           <Link to="contact" smooth={true} duration={500}>
             {t("Contact")}
@@ -111,11 +111,11 @@ const NavBar = () => {
             {t("Projects")}
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        {/* <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             {t("Skills")}
           </Link>
-        </li>
+        </li> */}
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             {t("Contact")}

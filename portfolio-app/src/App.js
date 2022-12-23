@@ -29,7 +29,7 @@ function App() {
       <Home />
 
       <Work />
-      <Skills />
+      {/* <Skills /> */}
 
       <Contact />
     </div>
