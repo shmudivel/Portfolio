@@ -61,21 +61,21 @@ const NavBar = () => {
           </Link>
         </li>
 
-        <div className=" border-l-4 border-[#26ddcd]">
+        <div className=" border-l-2 border-[#26ddcd]">
           <button
-            className=" p-1 pl-2 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            className=" p-1 pl-2 hover:bg-[#19bbad] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
             onClick={() => handleLngChange("english")}
           >
             En
           </button>
           <button
-            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            className="p-1 hover:bg-[#19bbad] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
             onClick={() => handleLngChange("russian")}
           >
             Ру
           </button>
           <button
-            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            className="p-1 hover:bg-[#19bbad] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
             onClick={() => handleLngChange("chinese")}
           >
             中文
@@ -121,21 +121,21 @@ const NavBar = () => {
             {t("Contact")}
           </Link>
         </li>
-        <div className="  border-l-4 border-[#e6c056]">
+        <div className="  border-l-2 border-[#26ddcd]">
           <button
-            className=" p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            className=" p-1 hover:bg-[#19bbad] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
             onClick={() => handleLngChange("english")}
           >
             En
           </button>
           <button
-            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            className="p-1 hover:bg-[#19bbad] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
             onClick={() => handleLngChange("russian")}
           >
             Ру
           </button>
           <button
-            className="p-1 hover:bg-[#26ddcd] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
+            className="p-1 hover:bg-[#19bbad] active:bg-emerald-300 focus:outline-none focus:ring focus:ring-[#26ddcd] ..."
             onClick={() => handleLngChange("chinese")}
           >
             中文
