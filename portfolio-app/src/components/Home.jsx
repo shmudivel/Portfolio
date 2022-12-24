@@ -39,7 +39,7 @@ const Home = () => {
 
           <div className="container mx-auto my-4 text-white">
             <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 ">
-              <li className="w-[160px] h-[60px] mr-0 flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-600">
+              <li className="w-[160px] h-[60px] mr-0 rounded-sm flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-600">
                 <a
                   className="flex justify-between items-center w-10/12 text-gray-300"
                   href="https://www.linkedin.com/in/darkhan-iglikov-24a616157"
@@ -49,7 +49,7 @@ const Home = () => {
                   <FaLinkedin size={30} /> {t("Linkedin")}
                 </a>
               </li>
-              <li className="w-[160px] h-[60px] flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#333333]">
+              <li className="w-[160px] h-[60px] rounded-sm flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#333333]">
                 <a
                   className="flex justify-between items-center w-10/12 text-gray-300"
                   href="https://github.com/shmudivel"
@@ -59,7 +59,7 @@ const Home = () => {
                   <FaGithub size={30} /> Github
                 </a>
               </li>
-              <li className="w-[160px] h-[60px] flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#6fc2b0]">
+              <li className="w-[160px] h-[60px] rounded-sm flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#6fc2b0]">
                 <a
                   className="flex justify-between items-center w-9/12 text-gray-300"
                   href="mailto: shmudivel@gmail.com"
@@ -67,7 +67,7 @@ const Home = () => {
                   <HiOutlineMail size={30} /> {t("Email")}
                 </a>
               </li>
-              <li className="w-[160px] h-[60px] flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#565f69]">
+              <li className="w-[160px] h-[60px] rounded-sm flex justify-between items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#565f69]">
                 <a
                   className="flex justify-between items-center w-10/12 text-gray-300"
                   href="https://drive.google.com/file/d/1-yHd_D_dkq4eATq8YBSQxrmWOfIQbrqb/view?usp=share_link"
