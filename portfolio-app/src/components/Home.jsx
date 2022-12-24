@@ -14,7 +14,7 @@ const Home = () => {
     <div name="home" className="w-full pt-10 h-screen bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#26ddcd]">{t("Hi, my name is")}</p>
+        <p className="text-[#ffffff]">{t("Hi, my name is")}</p>
         <h1 className="text-4xl py-3 sm:text-7xl font-bold text-[#ccd6f6]">
           {t("Darkhan Iglikov")}
         </h1>
