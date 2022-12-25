@@ -2,36 +2,45 @@
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import Skills from "./components/Skills";
+// import Skills from "./components/Skills";
 // import TranslationsI18next from "./components/TranslationsI18next";
 import Work from "./components/Work";
 
 import { useState, useEffect } from "react";
+import PuffLoader from "react-spinners/PuffLoader";
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [theme]);
-
-  const handleThemeChange = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
 
   return (
     <div>
-      <NavBar />
-      <Home />
+      {loading ? (
+        <div className="bg-[#0a192f]  flex justify-center items-center w-full h-[100vh]">
+          <PuffLoader
+            color={"#36d7b7 "}
+            loading={loading}
+            size={150}
+            speedMultiplier={1.5}
+          />
+        </div>
+      ) : (
+        <div>
+          <NavBar />
+          <Home />
 
-      <Work />
-      {/* <Skills /> */}
+          <Work />
+          {/* <Skills /> */}
 
-      <Contact />
+          <Contact />
+        </div>
+      )}
     </div>
   );
 }
