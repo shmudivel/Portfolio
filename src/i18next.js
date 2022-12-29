@@ -36,6 +36,10 @@ i18next.use(initReactI18next).init({
         "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.":
           "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.",
 
+        "Cargo Calculator": "Cargo Calculator",
+        "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.":
+          "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.",
+
         // Contact
         "Submit the form below or shoot me an email":
           "Submit the form below or shoot me an email",
@@ -77,6 +81,10 @@ i18next.use(initReactI18next).init({
         "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.":
           "Интеграция Next.js и Stripe для проведения платежей. База данных Sanity.io для управления данными eCommerce. Настраиваемый и удобный интерфейс с расширенными возможностями управления товарными запасами и заказами.",
 
+        "Cargo Calculator": " Калькулятор груза",
+        "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.":
+          " Приложение служит простым калькулятором объема коробок и труб. В этом приложении есть все, что нужно для правильного расчета объема коробок и труб. Кроме того, оно поддерживает 3 языка, поэтому этот калькулятор подходит для всех.",
+
         // Contact
         "Submit the form below or shoot me an email":
           "Отправьте форму ниже или напишите мне по электронной почте",
@@ -116,6 +124,10 @@ i18next.use(initReactI18next).init({
         "Check out some of my recent projects": "我最近的一部分项目",
         "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.":
           "Next.js和Stripe集成 用于支付处理。用于电子商务数据管理的Sanity.io数据库。可定制和用户友好的界面 具有先进的库存和订单管理能力",
+
+        "Cargo Calculator": "货物计算器",
+        "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.":
+          "作为简单的盒子和管道体积计算器使用。这个应用程序有你需要的一切，以计算正确的盒子和管道的体积。它还提供了3种语言，这个计算器适合所有人使用。",
 
         // Contact
         "Submit the form below or shoot me an email":

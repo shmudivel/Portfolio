@@ -73,15 +73,14 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className=" ml-3 text-2xl font-bold text-white tracking-wider">
-                Cargo Calculator
+                {t("Cargo Calculator")}
                 <p className="ml-3 my-2 text-xs">
                   Tailwind, Git, ReactJS, i18n(npm)
                 </p>
                 <p className="mx-3  text-xs">
-                  Use as simple box and pipes volume calculator on-the-go! This
-                  app has got everything you need to calculate right volume of
-                  boxes and pipes. It also provide 3 languages, this calculator
-                  is for everyone.
+                  {t(
+                    "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone."
+                  )}
                 </p>
               </span>
               <div className="pt-1 text-center">
