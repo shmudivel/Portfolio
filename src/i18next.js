@@ -43,6 +43,8 @@ i18next.use(initReactI18next).init({
           "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.",
 
         "Shaft Dictionary CN-RU-EN": "Shaft Dictionary CN-RU-EN",
+        "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.":
+          "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.",
 
         // Contact
         "Submit the form below or shoot me an email":
@@ -92,6 +94,8 @@ i18next.use(initReactI18next).init({
           " Приложение служит простым калькулятором объема коробок и труб. В этом приложении есть все, что нужно для правильного расчета объема коробок и труб. Кроме того, оно поддерживает 3 языка, поэтому этот калькулятор подходит для всех.",
 
         "Shaft Dictionary CN-RU-EN": "Словарь по проходке стволов",
+        "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.":
+          " Горнопромышленный словарь для технических переводчиков. Доступен на 3 языках, китайском, английском и русском. Полезен для технических переводчиков",
 
         // Contact
         "Submit the form below or shoot me an email":
@@ -140,6 +144,8 @@ i18next.use(initReactI18next).init({
           "作为简单的盒子和管道体积计算器使用。这个应用程序有你需要的一切，以计算正确的盒子和管道的体积。它还提供了3种语言，这个计算器适合所有人使用。",
 
         "Shaft Dictionary CN-RU-EN": "井筒字典",
+        "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.":
+          "技术翻译人员的采矿词典。有3种语言可供选择，中文、英文和俄文。对技术翻译人员很有用",
 
         // Contact
         "Submit the form below or shoot me an email":

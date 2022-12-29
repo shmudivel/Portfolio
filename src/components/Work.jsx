@@ -118,10 +118,9 @@ const Work = () => {
                   ReactJS, Tailwind, Git, Firebase, i18n(npm)
                 </p>
                 <p className="mx-3  text-xs">
-                  {" "}
-                  Mining Dictionary for technical translators. Accessible in 3
-                  languages, Chinese, English and Russian. Useful for technical
-                  translators.
+                  {t(
+                    "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators."
+                  )}
                 </p>
               </span>
               <div className="pt-8 text-center">
