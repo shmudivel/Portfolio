@@ -46,6 +46,12 @@ i18next.use(initReactI18next).init({
         "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.":
           "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.",
 
+        "Time Zones Scheduler": "Time Zones Scheduler",
+        "Time Zones Scheduler is a simple app that helps you to schedule meetings with people from different time zones. It is a simple and easy to use app that helps you to schedule meetings with people from different time zones.":
+          "Time Zones Scheduler is a simple app that helps you to schedule meetings with people from different time zones. It is a simple and easy to use app that helps you to schedule meetings with people from different time zones.",
+
+        Demo: "Demo",
+        Code: "Code",
         // Contact
         "Submit the form below or shoot me an email":
           "Submit the form below or shoot me an email",
@@ -97,6 +103,12 @@ i18next.use(initReactI18next).init({
         "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.":
           " Горнопромышленный словарь для технических переводчиков. Доступен на 3 языках, китайском, английском и русском. Полезен для технических переводчиков",
 
+        "Time Zones Scheduler": "Планировщик часовых поясов",
+        "Time Zones Scheduler is a simple app that helps you to schedule meetings with people from different time zones. It is a simple and easy to use app that helps you to schedule meetings with people from different time zones.":
+          "Планировщик часовых поясов - это простое приложение, которое помогает вам планировать встречи с людьми из разных часовых поясов. Это простое и удобное приложение, которое помогает вам планировать встречи с людьми из разных часовых поясов.",
+        Demo: "Демо",
+        Code: "Код",
+
         // Contact
         "Submit the form below or shoot me an email":
           "Отправьте форму ниже или напишите мне по электронной почте",
@@ -147,6 +159,11 @@ i18next.use(initReactI18next).init({
         "Mining Dictionary for technical translators. Accessible in 3 languages, Chinese, English and Russian. Useful for technical translators.":
           "技术翻译人员的采矿词典。有3种语言可供选择，中文、英文和俄文。对技术翻译人员很有用",
 
+        "Time Zones Scheduler": "时区日程安排",
+        "Time Zones Scheduler is a simple app that helps you to schedule meetings with people from different time zones. It is a simple and easy to use app that helps you to schedule meetings with people from different time zones.":
+          "时区日程安排是一款帮助您与来自不同时区的人安排会议的简单应用程序。这是一款简单易用的应用程序，可帮助您与来自不同时区的人安排会议。",
+        Demo: "演示",
+        Code: "代码",
         // Contact
         "Submit the form below or shoot me an email":
           "提交以下表格或向我发送电子邮件",

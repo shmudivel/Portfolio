@@ -49,7 +49,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    {t("Demo")}
                   </button>
                 </a>
                 <a
@@ -58,7 +58,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {t("Code")}
                   </button>
                 </a>
               </div>
@@ -90,7 +90,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    {t("Demo")}
                   </button>
                 </a>
                 <a
@@ -99,7 +99,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {t("Code")}
                   </button>
                 </a>
               </div>
@@ -130,7 +130,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    {t("Demo")}
                   </button>
                 </a>
                 <a
@@ -139,7 +139,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {t("Code")}
                   </button>
                 </a>
               </div>
@@ -154,15 +154,14 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="ml-3 text-2xl font-bold text-white tracking-wider">
-                Time Zones Scheduler
+                {t("Time Zones Scheduler")}
                 <p className=" ml-3 my-2 text-xs">
                   ReactJS, Tailwind, Git, i18n(npm)
                 </p>
                 <p className="mx-3  text-xs">
-                  {" "}
-                  Time Zones Scheduler is a convenient tool, to scheduler
-                  international video and phone calls for people from various
-                  parts of the world.
+                  {t(
+                    "Time Zones Scheduler is a simple app that helps you to schedule meetings with people from different time zones. It is a simple and easy to use app that helps you to schedule meetings with people from different time zones."
+                  )}
                 </p>
               </span>
               <div className="pt-8 text-center">
@@ -172,7 +171,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    {t("Demo")}
                   </button>
                 </a>
                 <a
@@ -181,7 +180,7 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {t("Code")}
                   </button>
                 </a>
               </div>
