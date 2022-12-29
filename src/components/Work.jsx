@@ -32,7 +32,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="ml-3 text-2xl font-bold text-white tracking-wider">
-                eCommerce website
+                {t("eCommerce website")}
                 <p className=" ml-3 my-2 text-xs">
                   NextJs, Stripe, Sanity-studio
                 </p>

@@ -33,6 +33,8 @@ i18next.use(initReactI18next).init({
         // Projects
         "Check out some of my recent projects":
           "Check out some of my recent projects",
+
+        "eCommerce website": "eCommerce website",
         "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.":
           "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.",
 
@@ -78,6 +80,8 @@ i18next.use(initReactI18next).init({
         // Projects
         "Check out some of my recent projects":
           "Несколько моих недавних проектов",
+
+        "eCommerce website": "Интернет-магазин",
         "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.":
           "Интеграция Next.js и Stripe для проведения платежей. База данных Sanity.io для управления данными eCommerce. Настраиваемый и удобный интерфейс с расширенными возможностями управления товарными запасами и заказами.",
 
@@ -122,6 +126,8 @@ i18next.use(initReactI18next).init({
 
         //Projects
         "Check out some of my recent projects": "我最近的一部分项目",
+
+        "eCommerce website": "电子商务网站",
         "Next.js and Stripe integration for payment processing. Sanity.io database for eCommerce data management. Customizable and user-friendly interface with advanced inventory and order management capabilities.":
           "Next.js和Stripe集成 用于支付处理。用于电子商务数据管理的Sanity.io数据库。可定制和用户友好的界面 具有先进的库存和订单管理能力",
 
