@@ -42,6 +42,8 @@ i18next.use(initReactI18next).init({
         "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.":
           "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.",
 
+        "Shaft Dictionary CN-RU-EN": "Shaft Dictionary CN-RU-EN",
+
         // Contact
         "Submit the form below or shoot me an email":
           "Submit the form below or shoot me an email",
@@ -89,6 +91,8 @@ i18next.use(initReactI18next).init({
         "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.":
           " Приложение служит простым калькулятором объема коробок и труб. В этом приложении есть все, что нужно для правильного расчета объема коробок и труб. Кроме того, оно поддерживает 3 языка, поэтому этот калькулятор подходит для всех.",
 
+        "Shaft Dictionary CN-RU-EN": "Словарь по проходке стволов",
+
         // Contact
         "Submit the form below or shoot me an email":
           "Отправьте форму ниже или напишите мне по электронной почте",
@@ -134,6 +138,8 @@ i18next.use(initReactI18next).init({
         "Cargo Calculator": "货物计算器",
         "Use as simple box and pipes volume calculator on-the-go! This app has got everything you need to calculate right volume of boxes and pipes. It also provide 3 languages, this calculator is for everyone.":
           "作为简单的盒子和管道体积计算器使用。这个应用程序有你需要的一切，以计算正确的盒子和管道的体积。它还提供了3种语言，这个计算器适合所有人使用。",
+
+        "Shaft Dictionary CN-RU-EN": "井筒字典",
 
         // Contact
         "Submit the form below or shoot me an email":

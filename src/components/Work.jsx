@@ -113,7 +113,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="ml-3 text-2xl font-bold text-white tracking-wider">
-                Shaft Dictionary (CN-RU-EN)
+                {t("Shaft Dictionary CN-RU-EN")}
                 <p className="ml-3 my-2 text-xs">
                   ReactJS, Tailwind, Git, Firebase, i18n(npm)
                 </p>
