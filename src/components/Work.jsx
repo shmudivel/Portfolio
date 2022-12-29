@@ -37,7 +37,6 @@ const Work = () => {
                   NextJs, Stripe, Sanity-studio
                 </p>
                 <p className="mx-3  text-xs">
-                  {" "}
                   Next.js and Stripe integration for payment processing.
                   Sanity.io database for eCommerce data management. Customizable
                   and user-friendly interface with advanced inventory and order
