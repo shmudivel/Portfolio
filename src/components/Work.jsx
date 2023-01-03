@@ -4,6 +4,9 @@ import dictionary from "../assets/dictionary.png";
 import timeZones from "../assets/timeZones.png";
 import vdoh from "../assets/vdoh.png";
 
+import { SiNextdotjs } from "react-icons/si";
+import { FaCcStripe } from "react-icons/fa";
+
 import { useTranslation } from "react-i18next";
 
 const Work = () => {
@@ -33,8 +36,8 @@ const Work = () => {
             <div className="opacity-0 group-hover:opacity-100">
               <span className="ml-3 text-2xl font-bold text-white tracking-wider">
                 {t("eCommerce website")}
-                <p className=" ml-3 my-2 text-xs">
-                  NextJs, Stripe, Sanity-studio
+                <p className=" ml-3 my-2 text-xl">
+                  <SiNextdotjs /> <FaCcStripe /> sanity.io
                 </p>
                 <p className="mx-3  text-xs">
                   {t(
